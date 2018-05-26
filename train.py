@@ -6,7 +6,7 @@ import time
 import numpy as np
 import pandas as pd
 import tensorflow as tf
-from data_helpers import *
+from helpers import *
 from sklearn.model_selection import KFold
 from sklearn.model_selection import train_test_split
 from text_cnn import TextCNN
